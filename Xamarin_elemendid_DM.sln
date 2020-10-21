@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin_elemendid_DM.Android", "Xamarin_elemendid_DM\Xamarin_elemendid_DM.Android\Xamarin_elemendid_DM.Android.csproj", "{33C2815A-01BC-4A6F-8298-B5E56622976B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin_elemendid_DM", "Xamarin_elemendid_DM\Xamarin_elemendid_DM\Xamarin_elemendid_DM.csproj", "{7CAA171C-584E-463E-AB31-66C530418158}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33C2815A-01BC-4A6F-8298-B5E56622976B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33C2815A-01BC-4A6F-8298-B5E56622976B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33C2815A-01BC-4A6F-8298-B5E56622976B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{33C2815A-01BC-4A6F-8298-B5E56622976B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33C2815A-01BC-4A6F-8298-B5E56622976B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33C2815A-01BC-4A6F-8298-B5E56622976B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7CAA171C-584E-463E-AB31-66C530418158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CAA171C-584E-463E-AB31-66C530418158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CAA171C-584E-463E-AB31-66C530418158}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7CAA171C-584E-463E-AB31-66C530418158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CAA171C-584E-463E-AB31-66C530418158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CAA171C-584E-463E-AB31-66C530418158}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {146BDB34-75AB-4661-A49B-7F616B9BD80A}
+	EndGlobalSection
+EndGlobal
