@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Xamarin_elemendid_DM.Tableview">
     <ContentPage.Content>
+        
         <StackLayout BackgroundColor="AliceBlue">
             <Label Text="TableView позволяет создавать таблицы с различным содержимым, при этом в таблицах могут размещаться и другие элементы управления. TableView может быть полезен для отображения списка различных настроек, вывод данных в виде формы, либо для построчного отображения данных. Элементы в TableView организованы в секции (элементы TableSection). Корневым элементов в TableView является элемент TableRoot, который инкапсулирует в себе все секции"
                 VerticalOptions="CenterAndExpand" 

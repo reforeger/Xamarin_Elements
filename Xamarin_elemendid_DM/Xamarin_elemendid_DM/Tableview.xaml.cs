@@ -16,5 +16,6 @@ namespace Xamarin_elemendid_DM
         {
             InitializeComponent();
         }
+        
     }
 }

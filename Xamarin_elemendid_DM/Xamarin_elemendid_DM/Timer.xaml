@@ -4,9 +4,22 @@
              x:Class="Xamarin_elemendid_DM.Timer">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to "
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <FlexLayout>
+                
+            <Label x:Name="lbl_Timer" 
+                   Text="Click on button to know how to use"
+                   FontSize="Medium"
+                   BackgroundColor="MidnightBlue">
+            <Label.GestureRecognizers>
+                <TapGes
+            </Label.GestureRecognizers>
+            </Label>
+            <Button x:Name="TImer" Text="Info" FontSize="Medium"
+                    BackgroundColor="Olive"
+                    Clicked="Btn_timer">
+                
+            </Button>
+            </FlexLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
