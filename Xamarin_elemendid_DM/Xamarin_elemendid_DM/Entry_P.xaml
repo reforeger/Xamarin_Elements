@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_elemendid_DM.Entry_P">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="text"
+                   Placeholder
+                   WidthRequest="500"
+                   HeightRequest="600">
+                
+            </Entry>
+            
+            <Button Clicked="Button_Clicked"
+                    Text="butt"
+                    Font="22"
+                    WidthRequest="200"
+                    HeightRequest="100"
+                    BackgroundColor="Cyan">
+                
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
