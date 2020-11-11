@@ -13,6 +13,11 @@
                    HeightRequest="600">
                 
             </Entry>
+            <Slider
+                x:Name="vol"
+                ValueChanged="Slider_ValueChanged"
+                Value="1.0"
+            </Slider>
             
             <Button Clicked="Button_Clicked"
                     Text="butt"
